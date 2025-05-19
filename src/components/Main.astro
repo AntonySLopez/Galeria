@@ -1,8 +1,10 @@
 ---
+import { mostrarImagenes } from '../api/GaleryServer'
+
 const img = "https://w0.peakpx.com/wallpaper/844/692/HD-wallpaper-god-of-war-game-gaming-godofwar.jpg"
 ---
 
-<main class="w-full h-[80vh] bg-gray-400 grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] justify-items-center gap-3 ">
+<main id="galeria" class="w-full h-[80vh] bg-gray-400 grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] justify-items-center gap-3 ">
     <img src={img} alt="test" class="w-[200px] ">
     <img src={img} alt="test" class="w-[200px]">
     <img src={img} alt="test" class="w-[200px]">
